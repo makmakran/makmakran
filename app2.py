@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import base64
-#import matplotlib.pyplot as plt
-#import seaborn as sns
+import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
 
 st.title('Next Best Action Prediction - Invest in the right opportunities')
@@ -24,16 +24,16 @@ df=load_data()
 
 
 # Type1
-unique_Type1 = ['CRM','Coupon','Replacement','OnlineOrder','OfflineOrder', 'Service']
+unique_Type1 = ['ActivityA','ActivityB','ActivityC','ActivityD','ActivityE', 'ActivityF']
 selected_Type1 = st.sidebar.multiselect('Last1', unique_Type1, unique_Type1)
 # Type2
-unique_Type2 = ['CRM','Coupon','Replacement','OnlineOrder','OfflineOrder', 'Service']
+unique_Type2 = ['ActivityA','ActivityB','ActivityC','ActivityD','ActivityE', 'ActivityF']
 selected_Type2 = st.sidebar.multiselect('Last2', unique_Type2, unique_Type2)
 # Type3
-unique_Type3 = ['CRM','Coupon','Replacement','OnlineOrder','OfflineOrder', 'Service']
+unique_Type3 = ['ActivityA','ActivityB','ActivityC','ActivityD','ActivityE', 'ActivityF']
 selected_Type3 = st.sidebar.multiselect('Last3', unique_Type3, unique_Type3)
 # Type4
-unique_Type4 = ['CRM','Coupon','Replacement','OnlineOrder','OfflineOrder', 'Service']
+unique_Type4 = ['ActivityA','ActivityB','ActivityC','ActivityD','ActivityE', 'ActivityF']
 selected_Type4 = st.sidebar.multiselect('Last4', unique_Type4, unique_Type4)
 
 
