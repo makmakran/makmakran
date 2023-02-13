@@ -66,10 +66,11 @@ with st.container():
     with left_column:
         st.header("My education")
         st.subheader("University of Piraeus")
-        st.title("Master of Science in Informatics• November 2020 - present")
+        st.title("Master of Science in Informatics• November 2020 - January 2023")
         st.write(
         "The Master Program in Informatics cures modern technology issues and applications of computer science in other modern sciences. The content and character of the program is configured to respond successfully to the specific scientific needs arising from the rapid development of Information and applications at European and international level. Having already a mathematic way of thinking as a graduated student from a Technical University, the above post graduation program helps me to enhance my professional experience in data in terms of IT academic knowledge."
     )
+        st.write("Thesis: Customer Behavior Prediction, based on activities sequence, using Keras and LSTM")
         st.write("##")
         st.subheader("National Technical University of Athens")
         st.title("Diploma in Geomatic Engineering• October 2012 - March 2018")
