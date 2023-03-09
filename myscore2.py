@@ -26,7 +26,7 @@ st.markdown("""gamifying your lifting experience 🏋️ | monitor your results 
 df=pd.read_csv("myscores2.csv")
 
 df.Date = df.Date.astype("string")
-st.image(image, caption='#v_board_adddict'
+st.image(image, caption='#v_board_addict'
 )
 
 
