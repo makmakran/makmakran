@@ -1,10 +1,11 @@
-plotly==5.11.0
+plotly
+numpy
 streamlit==1.19.0
-pandas==1.5.1
-Pillow==9.3.0
-streamlit_lottie==0.0.3
-protobuf~=3.19.0
-watchdog==2.1.8
+pandas
+Pillow
+streamlit_lottie
+protobuf
+watchdog
 imageio
 streamlit-extras
 scipy
