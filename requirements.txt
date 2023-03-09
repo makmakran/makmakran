@@ -1,7 +1,0 @@
-
-plotly==5.11.0
-streamlit==1.14.00
-pandas==1.5.1
-Pillow==9.3.0
-streamlit_lottie==0.0.2
-requests==2.24.0
