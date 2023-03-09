@@ -1,7 +1,7 @@
 import altair as alt
 import pandas as pd
 import streamlit as st
-from streamlit_extras.altex import _chart
+##from streamlit_extras.altex import _chart
 from datetime import datetime
 import requests
 from streamlit_lottie import st_lottie
