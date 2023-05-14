@@ -47,7 +47,7 @@ with st.container():
         st.write(
         "After almost 5 years in FMCG/Retail industry, I was curious for new ways of workings/ new data/ new industries. Banking is an unlimited source of data/procesdures and I thought that it was the right moment for my new challenge. I joined ALPHA BANK in July of 2022. The Bank was in the staring age of implementation of a Holistic Transformation. Having the experince on this from Papastratos years, I undertook the role of Process Efficiency Reporting & Analytics specialist. I was responsible for the database management and architecture for reporting scope. The aim was to unify the employee performance metrics with the operations KPIs, to drive into an effective workforce management. Process reengineering & automation, Reporting & Data visualization with Qlik Sense was my new accountabilities in the stage of The Bank's successful business transformation while I worked as intrapreneur on BI tools (Qlik Sense, PowerBI) within the bank departments. Setting up the 'The Qlik Community of Practice' to create bridges within different departments, to help more employees to get familiar with Qlik and visualization/BI mindset, to serve upadates of the tool and hints to the more mature users, is one of my achievement in my 'bank year'."
     )
-        st.write("[Alpha Bank](https://www.linkedin.com/company/alpha-bank/)")
+        st.write("a[Alpha Bank](https://www.linkedin.com/company/alpha-bank/)")
         
         
         
