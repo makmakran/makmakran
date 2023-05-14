@@ -27,7 +27,7 @@ with st.container():
     st.write(
         "A lifelong learner, open-minded, and opinionated professional with a positive attitude. Having 6+ years of experience analyzing business processes, and expertise in developing and managing opportunities for retention and acquisition consumer programs. An effective big data interpreter and user of various visualization techniques to drive growth, serve results, and share insights. Worked in FMCG/Retail/Banking/Gambling industries, with proficiency in CX & Product analytics. Active listening, empathy, and respect are my principles for an efficient collaboration and the core elements for a strong, solid, and powerful team. I am a fitness and wellness fanatic, in love with sports and travelling!"
     )
-    st.write("[Learn More >](https://www.linkedin.com/in/makis-makrandreou-7a5082168//)")
+    st.write("[Learn More](https://www.linkedin.com/in/makis-makrandreou-7a5082168//)")
 
 # ---- work ----
 with st.container():
