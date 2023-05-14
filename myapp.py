@@ -47,7 +47,7 @@ with st.container():
         st.write(
         "After almost 5 years in FMCG/Retail industry, I was curious for new ways of workings/ new data/ new industries. Banking is an unlimited source of data/procesdures and I thought that it was the right moment for my new challenge. I joined ALPHA BANK in July of 2022. The Bank was in the staring age of implementation of a Holistic Transformation. Having the experince on this from Papastratos years, I undertook the role of Process Efficiency Reporting & Analytics specialist. I was responsible for the database management and architecture for reporting scope. The aim was to unify the employee performance metrics with the operations KPIs, to drive into an effective workforce management. Process reengineering & automation, Reporting & Data visualization with Qlik Sense was my new accountabilities in the stage of The Bank's successful business transformation while I worked as intrapreneur on BI tools (Qlik Sense, PowerBI) within the bank departments. Setting up the 'The Qlik Community of Practice' to create bridges within different departments, to help more employees to get familiar with Qlik and visualization/BI mindset, to serve upadates of the tool and hints to the more mature users, is one of my achievement in my 'bank year'."
     )
-        st.write("a[Alpha Bank](https://www.linkedin.com/company/alpha-bank/)")
+        st.write("[Alpha Bank](https://www.linkedin.com/company/alpha-bank/)")
         
         
         
@@ -77,17 +77,14 @@ with st.container():
         st.write(
         "The Master Program in Informatics cures modern technology issues and applications of computer science in other modern sciences. The content and character of the program is configured to respond successfully to the specific scientific needs arising from the rapid development of Information and applications at European and international level. Having already a mathematic way of thinking as a graduated student from a Technical University, the above post graduation program helps me to enhance my professional experience in data in terms of IT academic knowledge."
     )
-        st.write("[link](https://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/15143/Makrandreou_20045.pdf?sequence=3&isAllowed=y)")
-
-        st.write("Thesis: Customer Behavior Prediction, based on activities sequence, using Keras and LSTM")
+        st.write("[Thesis](https://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/15143/Makrandreou_20045.pdf?sequence=3&isAllowed=y): Customer Behavior Prediction, based on activities sequence, using Keras and LSTM")
         st.write("##")
         st.title("National Technical University of Athens")
         st.subheader("Diploma in Geomatic Engineering• October 2012 - March 2018")
         st.write(
         "The School’s curriculum is based on the scientific and technical activities of Rural and Surveying Engineers, Greece’s production and development goals. The curriculum aims at providing students with the necessary scientific and technological education that will enable them to perform satisfactorily in a specific area of Rural and Surveying Engineering. In my view, the point of my studies in engineering is not just the skill of making assumptions…it’s the confidence. And that’s the big part,that a lot of people don’t realize that when you’re starting out, what’s more important than the skill is the confidence to just do it, you know, start something."
     )
-        st.write("[link](https://dspace.lib.ntua.gr/xmlui/bitstream/handle/123456789/47064/%ce%95%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1.pdf?sequence=1&isAllowed=y)")
-        st.write("Thesis: 3D City modelling Athens, using CityGML")
+        st.write("[Thesis](https://dspace.lib.ntua.gr/xmlui/bitstream/handle/123456789/47064/%ce%95%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1.pdf?sequence=1&isAllowed=y): 3D City modelling Athens, using CityGML")
 
     with right_column:
         st_lottie(lottie_coding2, height=300, key="coding2")
