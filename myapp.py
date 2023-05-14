@@ -22,12 +22,12 @@ lottie_coding2 = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_h
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.title("Hi, I am Efthymios (Makis) :wave:")
-    st.subheader("A Business Intelligence Analyst/Data Scientist From Athens")
+    st.title("Hi, I am Makis:wave:")
+    st.subheader("An Insight Analyst/Data Scientist From Athens")
     st.write(
-        "A lifelong learner, open-minded, and opinionated professional with a positive attitude. Having 6+ years of experience analyzing business processes, and an expert in developing and managing opportunities for retention and acquisition consumer programs. An effective big data interpreter and user of various visualization techniques to drive growth, serve results, and share insights. Active listening, empathy, and respect are my principles for an efficient collaboration and the core elements for a strong, solid, and powerful team. I am a fitness and wellness fanatic, in love with sports and travelling!"
+        "A lifelong learner, open-minded, and opinionated professional with a positive attitude. Having 6+ years of experience analyzing business processes, and expertise in developing and managing opportunities for retention and acquisition consumer programs. An effective big data interpreter and user of various visualization techniques to drive growth, serve results, and share insights. Worked in FMCG/Retail/Banking/Gambling industries, with proficiency in CX & Product analytics. Active listening, empathy, and respect are my principles for an efficient collaboration and the core elements for a strong, solid, and powerful team. I am a fitness and wellness fanatic, in love with sports and travelling!"
     )
-    st.write("[Learn More >](https://www.linkedin.com/in/efthymios-makrandreou-7a5082168/)")
+    st.write("[Learn More >](https://www.linkedin.com/in/makis-makrandreou-7a5082168//)")
 
 # ---- work ----
 with st.container():
@@ -35,8 +35,15 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("Working experience")
+        
+        st.title("Retail Customer & Product Insights & Analytics Specialist")
+        st.subheader("OPAP Greece • April 2023 - present")
+        st.write(
+        "Opportunities do not happen, you create them. [Chris Grosser]... OPAP is the leading Entertainment Provider/Gambling company in Greece and among the most recognized ones in its sector worldwide. Being a core member to a fresh strategic initiative of such a huge company, meets the points of my personal ambitions list. OPAP aims to conjure a new retail customer and product analytics department to leverage data to gain valuable insights and drive business growth, so, my role as the 'Retail Customer & Product Analytics Specialist’ is to deliver fact-based customer understanding insights that facilitate strategic, tactical and operational decision-making from various internal & external systems and data sources. Develop and apply advanced statistical and machine learning techniques based on digital browsing and gaming data to deliver actionable insights at customer & product level. It is important to thoroughly research and consider your personal ambitions, priorities, and career goals to find a place that aligns with your values.")
+        st.write("[OPAP](https://www.linkedin.com/company/opap-s.a./)")
+        
         st.title("Process Efficiency Reporting & Analytics Specialist")
-        st.subheader("Alpha Bank Greece • July 2022 - present")
+        st.subheader("Alpha Bank Greece • July 2022 - April 2023")
         st.write(
         "After almost 5 years in FMCG/Retail industry, I was curious for new ways of workings/ new data/ new industries. Banking is an unlimited source of data and processing and I thought that it was the moment for a new challenge. I joined ALPHA BANK in July of 2022. The Bank was in the staring age of implementation of a Holistic Transformation. Having the experince on this from Papastratos years, I undertook the role of Process Efficiency Reporting & Analytics specialist. I was responsible for the database management and architecture for reporting scope. Process reengineering & automation, Reporting & Data visualization with Qlik Sense was my new accountabilities in the stage of The Bank's successful business transformation."
     )
