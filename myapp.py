@@ -40,8 +40,8 @@ with st.container():
         st.subheader("OPAP Greece • April 2023 - present")
         st.write(
         "OPAP is the foremost entertainment provider and gambling company in Greece, and it holds a prominent global position within its industry. Being an integral part of a new strategic initiative for such a substantial company aligns perfectly with the aspirations on my personal list of ambitions. OPAP's objective is to establish a novel retail customer and product analytics department, dedicated to harnessing data for valuable insights and to propel business growth by unifying retail, app, and market research data. In my role as the 'Retail Customer & Product Analytics Specialist,' my responsibility is to deliver insightful customer understanding based on factual data. These insights play a vital role in informing strategic, tactical, and operational decisions by drawing from a variety of internal and external systems and data sources. I am tasked with the development and application of advanced statistical and machine learning techniques, utilizing digital browsing and gaming data, in order to provide actionable insights at both customer and product levels. Undoubtedly, it is crucial to meticulously research and contemplate personal ambitions, priorities, and career objectives to discover a role that harmonizes with one's values. As Chris Grosser aptly stated...Opportunities do not happen, you create them."        
-        )
-            st.write("[OPAP](https://www.linkedin.com/company/opap-s.a./)")
+     )
+        st.write("[OPAP](https://www.linkedin.com/company/opap-s.a./)")
         
         st.title("Process Efficiency Reporting & Analytics Specialist")
         st.subheader("Alpha Bank Greece • July 2022 - April 2023")
