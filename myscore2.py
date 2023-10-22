@@ -59,6 +59,17 @@ with st.form("data_editor_form"):
 
     #df.style.highlight_max(color = 'lightgreen', axis = 0)    
     submit_button = st.form_submit_button("Submit")
+
+if save_button:
+        try:
+            # Convert the edited DataFrame to CSV using pandas
+            edited.to_csv("myscores2.csv", index=False)
+            st.success("Changes saved to CSV file")
+        except Exception as e:
+            st.error(f"An error occurred while saving changes: {e}")
+
+
+    
     # edited_df = st.experimental_data_editor(
         # df,
         # use_container_width=True,
@@ -66,7 +77,6 @@ with st.form("data_editor_form"):
     #df = df.append(df, ignore_index=True)
     # st.write(df)
     edited.to_csv("myscores2.csv", index=False)
-    st.success("Changes saved to CSV file")
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
     
 #edited.style.highlight_max(color = 'green', axis = 0) 
