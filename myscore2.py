@@ -60,7 +60,7 @@ with st.form("data_editor_form"):
     #df.style.highlight_max(color = 'lightgreen', axis = 0)    
     submit_button = st.form_submit_button("Submit")
 
-if save_button:
+    if save_button:
         try:
             # Convert the edited DataFrame to CSV using pandas
             edited.to_csv("myscores2.csv", index=False)
