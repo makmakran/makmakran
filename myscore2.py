@@ -66,6 +66,7 @@ with st.form("data_editor_form"):
     #df = df.append(df, ignore_index=True)
     # st.write(df)
     edited.to_csv("myscores2.csv", index=False)
+    st.success("Changes saved to CSV file")
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
     
 #edited.style.highlight_max(color = 'green', axis = 0) 
