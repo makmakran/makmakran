@@ -61,12 +61,12 @@ with st.form("data_editor_form"):
     submit_button = st.form_submit_button("Submit")
 
     
-     edited_df = st.experimental_data_editor(
-         df,
-         use_container_width=True,
-         num_rows="dynamic",
-    df = df.append(df, ignore_index=True)
-     st.write(df)
+     #edited_df = st.experimental_data_editor(
+         #df,
+         #use_container_width=True,
+         #num_rows="dynamic",
+    #df = df.append(df, ignore_index=True)
+    #st.write(df)
     edited.to_csv("myscores2.csv", index=False)
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
     
