@@ -6,6 +6,12 @@ import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
 
+# ---- CACHE FUNCTIONS ----
+@st.cache_data  # Cache the CSV loading
+def load_data(file):
+    return pd.read_csv(file)
+
+@st.cache_resource  # Cache the Lottie animation to avoid repeated downloads
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -22,16 +28,6 @@ st.markdown("""gamifying your lifting experience 🏋️ | monitor your results 
 
 # Load CSV file
 csv_file = "myscores2.csv"
-
-# Function to load data
-def load_data(file):
-    return pd.read_csv(file)
-
-# Function to save data
-def save_data(data, file):
-    data.to_csv(file, index=False)
-
-# Load the data each time the app runs
 df = load_data(csv_file)
 
 # Display the image
@@ -50,8 +46,9 @@ with st.form("data_editor_form"):
 
     if submit_button:
         # Save the edited DataFrame back to the CSV file
-        save_data(edited_df, csv_file)
+        edited_df.to_csv(csv_file, index=False)
         st.success("Changes saved to the CSV file!")
+        st.experimental_rerun()  # Reload to ensure the saved data is reflected
 
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
 
@@ -61,4 +58,4 @@ st_lottie(lottie_coding, height=300, key="coding")
 # Reload button to refresh the app
 reload = st.button('Reload page')
 if reload:
-    st.experimental_rerun()
+    st.experimental_rerun()  # This forces the app to reload when the button is pressed
