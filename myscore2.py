@@ -46,9 +46,12 @@ with st.form("data_editor_form"):
 
     if submit_button:
         # Save the edited DataFrame back to the CSV file
-        edited_df.to_csv(csv_file, index=False)
-        st.success("Changes saved to the CSV file!")
-        st.experimental_rerun()  # Reload to ensure the saved data is reflected
+        try:
+            edited_df.to_csv(csv_file, index=False)
+            st.success("Changes saved to the CSV file!")
+            st.experimental_rerun()  # Reload to ensure the saved data is reflected
+        except Exception as e:
+            st.error(f"Error saving file: {e}")
 
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
 
