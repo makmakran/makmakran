@@ -22,7 +22,17 @@ st.markdown("""gamifying your lifting experience 🏋️ | monitor your results 
 
 # Load CSV file
 csv_file = "myscores2.csv"
-df = pd.read_csv(csv_file)
+
+# Function to load data
+def load_data(file):
+    return pd.read_csv(file)
+
+# Function to save data
+def save_data(data, file):
+    data.to_csv(file, index=False)
+
+# Load the data each time the app runs
+df = load_data(csv_file)
 
 # Display the image
 st.image(image, caption='Coach Bill')
@@ -40,7 +50,7 @@ with st.form("data_editor_form"):
 
     if submit_button:
         # Save the edited DataFrame back to the CSV file
-        edited_df.to_csv(csv_file, index=False)
+        save_data(edited_df, csv_file)
         st.success("Changes saved to the CSV file!")
 
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
