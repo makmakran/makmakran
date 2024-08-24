@@ -6,6 +6,8 @@ import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
 
+st.set_page_config(layout="centered", page_title="StrongmanWithBill", page_icon="🦍")
+
 # ---- CACHE FUNCTIONS ----
 @st.cache_data  # Cache the CSV loading
 def load_data(file):
@@ -22,7 +24,6 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_vxnelydc.json")
 image = Image.open('bill.jpg')
 
-st.set_page_config(layout="centered", page_title="StrongmanWithBill", page_icon="🦍")
 st.title("The proof is in the numbers!")
 st.markdown("""gamifying your lifting experience 🏋️ | monitor your results 📈 | focus on podium 🥇""")
 
