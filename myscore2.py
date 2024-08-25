@@ -56,6 +56,15 @@ with st.form("data_editor_form"):
 
     st.caption("Modify cells above 👆 or even ➕ add rows, reload to check 👇")
 
+# Download button
+csv_data = edited_df.to_csv(index=False).encode('utf-8')
+st.download_button(
+    label="Download Table as CSV",
+    data=csv_data,
+    file_name='edited_scores.csv',
+    mime='text/csv',
+)
+
 # Animation at the bottom of the app
 st_lottie(lottie_coding, height=300, key="coding")
 
