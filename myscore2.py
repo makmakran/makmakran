@@ -69,6 +69,6 @@ st.download_button(
 st_lottie(lottie_coding, height=300, key="coding")
 
 # Reload button to refresh the app
-reload = st.button('Reload page')
-if reload:
-    st.experimental_rerun()  # This forces the app to reload when the button is pressed
+#########reload = st.button('Reload page')
+#########if reload:
+##############    st.experimental_rerun()  # This forces the app to reload when the button is pressed
